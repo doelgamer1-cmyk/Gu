@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Cute Birthday Surprise",
+  "description": "An interactive, customizable, and beautifully animated cute birthday surprise envelope that opens into a heartfelt greeting card, music player, and memory Polaroid album.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
