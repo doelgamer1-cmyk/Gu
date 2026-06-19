@@ -7,11 +7,11 @@ import Customizer from './components/Customizer';
 import { Sparkles, Heart, ChevronLeft, RotateCcw, Share2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
-// Import newly generated custom Michelle photos
-import michelleSepiaCollage from './assets/images/michelle_sepia_collage_1781890838738.jpg';
-import michelleDontCare from './assets/images/michelle_dont_care_1781890856711.jpg';
-import michellePinkBows from './assets/images/michelle_pink_bows_1781890873795.jpg';
-import michelleClassicPortrait from './assets/images/michelle_classic_portrait_1781890894950.jpg';
+// Stable and beautiful online placeholders for cozy memories
+const michelleDontCare = 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&q=80&w=600'; // Cute cat
+const michelleSepiaCollage = 'https://images.unsplash.com/photo-1533738363-b7f9aef128ce?auto=format&fit=crop&q=80&w=600'; // Vintage sweet cat
+const michellePinkBows = 'https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&q=80&w=600'; // Cute puppy
+const michelleClassicPortrait = 'https://images.unsplash.com/photo-1512909006721-3d6018887383?auto=format&fit=crop&q=80&w=600'; // Beautiful bow gift
 
 const DEFAULT_CONFIG: SurpriseConfig = {
   recipientName: 'Michelle',
